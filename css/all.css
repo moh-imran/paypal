@@ -1,0 +1,400 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+body {
+    line-height:1;
+    font-family: 'Open Sans', sans-serif;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { display:block;}
+nav ul {list-style:none;}
+blockquote, q {quotes:none;}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+input, select {vertical-align:middle;}
+body{
+	margin:0;
+	padding:0;
+	color:#000;
+	background:#fff;
+	font:16px/24px 'Open Sans', sans-serif;
+}
+img{ vertical-align:top;}
+a{ color:#2997b2;}
+#header{
+	overflow:hidden;
+	position:relative;
+	margin:0 0 50px;
+}
+#header img{
+	height:auto;
+	width:100%;
+	vertical-align:top;
+}
+.header_holder{
+	text-align:center;
+	width:50%;
+	position:absolute;
+	top:155px;
+	right:0;
+}
+.header_holder h2{
+	color:#000;
+	font:60px/70px 'Open Sans', sans-serif;
+	margin:0 0 10px;
+}
+.header_holder .order-now input[type="button"]{
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    color: #fff;
+    padding: 15px 25px;
+    font:18px/20px 'Open Sans', sans-serif;
+}
+.logo{
+	display:inline-block;
+	width:320px;
+	height:261px;
+	margin:0 0 25px;
+	text-indent:-9999px;
+	background:url(../images/logo.png) no-repeat;
+}
+.logo a{
+	display:block;
+	height:100%;	
+}
+.page_title{
+	text-align:center;
+	padding:50px 0 150px;
+	position:relative;
+}
+.page_title h1{
+	color:#000;
+	font:40px/48px 'Open Sans', sans-serif;
+	margin:0 0 30px;
+}
+.page_title h2{
+	color:#929292;
+	font:30px/36px 'Open Sans', sans-serif;
+	margin:0 0 10px;
+}
+.page_title:after{
+	content:"";
+	position:absolute;
+	bottom:130px;
+	left:50%;
+	width:110px;
+	height:4px;
+	background:#f7201e;
+	margin:0 0 0 -55px;
+}
+#main .row{ text-align:center;}
+#main .row img{vertical-align:top;}
+#main .img-responsive{ 
+/*    display:inline-block !important;*/
+    margin: 0 auto;
+}
+#main .row .col-md-6.col-sm-6.col-xs-12{text-align:center;}
+#main .text-block{
+	width:70%;
+	text-align:center;
+	display:inline-block;
+}
+.arrow_holder{
+	text-align:center;
+	padding:100px 0;
+}
+#main .text-block h3{
+	display:inline-block;
+/*	height:135px;*/
+	width:135px;
+	border-radius:50%;
+	vertical-align:middle;
+	text-align:center;
+	color:#fff;
+	font:600 124px/140px 'Open Sans', sans-serif;
+	margin:0 0 50px;
+}
+#main .text-block h4{
+	color:#000;
+	font:600 30px/30px 'Open Sans', sans-serif;
+	margin:0 0 45px;
+}
+#main .text-block p{
+        color:#000;
+	font:400 24px/30px 'Open Sans', sans-serif;
+}
+.red{ background:#f71f20;}
+.orange{ background:#f68121;}
+.yellow{ background:#fef200;}
+.green{ background:#5f9710;}
+.blue{ background:#0085ca;}
+.purple{ background:#5c2e91;}
+#footer .footer-banner{
+     margin-top: 175px;
+}
+#footer .footer-contant{
+    background: #141414;
+    padding: 100px 0 50px;
+}
+#footer .footer-contant .social-links ul{
+    list-style: none;
+    padding: 20px 0 60px;
+    margin: 0;
+    text-align: center;
+}
+#footer .footer-contant .social-links ul li{
+    display: inline-block;
+    margin: 0 12px;
+}
+#footer .footer-contant .social-links ul li a{
+    background: #1d1d1d;
+    border-radius: 50%;
+    padding: 24px 35px;
+    color: #505249;
+    font-size: 24px;
+}
+#footer .footer-contant .social-links ul li a.facebook:hover{ background: #3b5998;}
+#footer .footer-contant .social-links ul li a.google-plus:hover{ background: #d34836;}
+#footer .footer-contant .social-links ul li a.twitter:hover{ background: #00aced;}
+#footer .footer-contant .social-links ul li a.pintrest:hover{ background: #C92228;}
+#footer .footer-contant .social-links ul li a.linked:hover{ background: #007bb6;}
+#footer .footer-contant .social-links ul li a:hover .fa{ color: #fff;}
+#footer .footer-contant .footer-nav{}
+#footer .footer-contant .footer-nav ul{
+    padding: 0;
+    margin: 40px 0;
+    text-align: center;
+}
+#footer .footer-contant .footer-nav ul li{
+    display: inline-block;
+}
+#footer .footer-contant .footer-nav ul li a{
+    color: #838080;
+    text-decoration: none;
+    padding: 5px 20px;
+    font:400 16px/30px 'Open Sans', sans-serif;
+}
+#footer .footer-contant .footer-nav ul li a:hover{
+    color: #33a3dc;
+}
+#footer .footer-contant .copyrights{
+    color: #727066;
+    text-align: center;
+    font:400 14px/30px 'Open Sans', sans-serif;
+}
+#signup .modal-content{
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: none;
+    border-radius: 0;
+}
+#signup .modal-body{
+    padding: 100px 15px;
+}
+#signup .modal-content .signup-form{text-align: center;}
+#signup .modal-content .signup-form .form-group{margin-bottom: 5px;}
+#signup .modal-content .signup-form label{
+    width: 120px;
+    color: #000;
+    text-align: right;
+    padding-right: 10px;
+    font: 600 16px/30px 'Open Sans', sans-serif;
+}
+#signup .modal-content .signup-form label span{
+    color: red !important;
+}
+#signup .modal-content .signup-form input[type="text"]{
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+}
+#signup .modal-content .signup-form input[type="submit"]{
+    background: #ff0000;
+    border: 1px solid #ff0000;
+    color: #fff;
+    padding: 15px 25px;
+    width: 50%;
+    font:18px/20px 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width:1199px){
+    .header_holder{
+        top: 50px;
+    }
+    .logo{
+        margin: 0;
+    }
+    .header_holder h2{
+        font: 40px/70px 'Open Sans', sans-serif;
+    }
+}
+@media screen and (max-width:991px){
+    .header_holder {
+        top: 30px;
+    }
+    .header_holder h2 {
+        font: 32px/40px 'Open Sans', sans-serif;
+    }
+    .logo{
+        background-size: 75%;
+        height: 210px;
+    }
+}
+@media screen and (max-width:767px){
+	body {-webkit-overflow-scrolling: touch;}
+        .page_title{
+            padding: 50px 0 135px;
+        }
+        #main .row img{
+            padding-top: 50px;
+        }
+        .arrow_holder{
+            padding: 50px 0;
+        }
+        .header_holder {
+            top: 15px;
+        }
+        .logo {
+            background-size: 60%;
+            height: 160px;
+        }
+        .header_holder h2{
+            font: 26px/40px 'Open Sans', sans-serif;
+            text-align: left;
+        }
+        .order-now{
+            text-align: left;
+        }
+}
+@media screen and (max-width:639px){
+    #footer .footer-contant{
+        padding: 50px 0 50px;
+    }
+    #footer .footer-contant .social-links ul li{
+        margin: 0 3px;
+    }
+    #footer .footer-contant .social-links ul li a{
+        padding: 14px 25px;
+    }
+    #footer .footer-contant .footer-nav ul li a{
+        padding: 5px 12px;
+    }
+    .logo {
+        background-size: 45%;
+        height: 120px;
+    }
+    .header_holder h2 {
+        font: 22px/40px 'Open Sans', sans-serif;
+    }
+    .header_holder .order-now input[type="button"]{
+        padding: 10px 25px;
+    }
+	
+}
+@media screen and (max-width:479px){
+    #header img{
+        min-height: 250px;
+    }
+    .logo {
+        background-size: 38%;
+        height: 100px;
+    }
+    .header_holder h2 {
+        font: 15px/40px 'Open Sans', sans-serif;
+    }
+    .page_title h2{
+        font: 20px/36px 'Open Sans', sans-serif;
+    }
+    .page_title {
+        padding: 50px 0 125px;
+    }
+    #main .text-block h3{
+     margin: 0 0 30px;
+    }
+    #main .text-block p{
+        font: 400 18px/26px 'Open Sans', sans-serif;
+    }
+    #signup .modal-content .signup-form label{
+        display: block;
+        text-align: left;
+    }
+    #signup .modal-content .signup-form input[type="text"]{
+        width: 100%;
+    }
+    .empty{display: none;}
+    #signup .modal-content .signup-form input[type="submit"]{
+        width: 100%;
+    }
+    #footer .footer-contant .footer-nav ul li{
+        display: block;
+    }
+    #footer .footer-contant .social-links ul li a {
+        padding: 3px 12px;
+    }
+}

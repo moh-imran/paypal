@@ -1,0 +1,361 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700,600,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,300italic,400italic,700italic);
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+nav ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	transition:all 0.3s ease-in-out;
+}
+/* change colours to suit your needs */
+ins {
+	background-color: #ff9;
+	color: #000;
+	text-decoration: none;
+}
+/* change colours to suit your needs */
+mark {
+	background-color: #ff9;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+del {
+	text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+	border-bottom: 1px dotted;
+	cursor: help;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* change border colour to suit your needs */
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select {
+	vertical-align: middle;
+}
+body {
+	margin: 0;
+	padding: 0;
+        font-family: 'Open Sans', sans-serif;
+}
+img {
+	vertical-align: top;
+}
+.clear{
+    clear: both;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/*#############################################
+#   Login, Register, Forgor Password Styles   #
+###############################################*/
+.body-sign {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #ecedf0;
+}
+.body-sign .center-sign {
+    display: table-cell;
+    vertical-align: middle;
+}
+.form-logo{
+    margin: 0 0 20px
+}
+.form-logo img{
+    margin: 0 auto;
+}
+.form-wraper{
+    margin: 20px 0;
+}
+.login-wrap {
+    position: relative;
+    margin: 0 auto;
+    background: #fff;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #333;
+    padding: 15px;
+}
+.login-wrap h2 {
+    text-align: center;
+    margin: 30px 0 10px;
+    color: #34495e;
+    position: relative;
+    font: 700 28px/28px 'Open Sans', sans-serif;
+}
+.login-wrap h2:before, .login-wrap h2:after {
+    content: "";
+    height: 1px;
+    position: absolute;
+    top: 10px;
+    width: 30%;
+}
+.forgotpass:before, .forgotpass:after{
+    width: 20% !important;
+}
+.login-wrap h2:before {
+    background: rgb(126,126,126);
+    background: -moz-linear-gradient(right, rgba(126,126,126,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(right, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(right, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(right, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(right, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    left: 0;
+}
+.login-wrap h2:after {
+    background: rgb(126,126,126);
+    background: -moz-linear-gradient(left, rgba(126,126,126,1) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(left, rgba(126,126,126,1) 0%,rgba(255,255,255,1) 100%);
+    right: 0;
+}
+.login-wrap .form {
+    padding-top: 20px;
+    text-align: center;
+}
+.form .form-group span{
+    background-color: #929292;
+    border-radius: 3px 0px 0px 3px;
+    color: #404040;
+/*    display: block;
+    float: left;*/
+    display: inline-block;
+    height: 48px;
+    line-height: 49px;
+    text-align: center;
+    width: 50px;
+}
+.login-wrap .form input[type="text"],
+.login-wrap .form input[type="password"],
+.login-wrap .form input[type="email"],
+.login-wrap .form input[type="file"]{
+    width: 250px;
+/*    height: 50px;*/
+    border-left: none;
+    border-radius: 0px 5px 5px 0px;
+    outline: 0;
+    -moz-outline-style: none;
+    margin-top: -3px;
+    display: inline-block;
+}
+.login-wrap .form input[type="text"],
+.login-wrap .form input[type="password"],
+.login-wrap .form input[type="email"],
+.login-wrap .form input[type="file"]{
+    border: 1px solid #bbb;
+    padding: 13px 10px;
+    font-size: 14px;
+    border-left: none;
+}
+.login-wrap .form input[type="text"]:focus,
+.login-wrap .form input[type="password"]:focus,
+.login-wrap .form input[type="email"]:focus,
+.login-wrap .form input[type="file"]:focus{
+  border: 1px solid #3498db;
+}
+.login-wrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-linear-gradient(left, #DB3C35 33%, #DB3C35 10%, #269CCE 22%, #269CCE 66%, #444444 40%, #444444 60%);
+  background: -moz-linear-gradient(left, #DB3C35 33%, #DB3C35 10%, #269CCE 22%, #269CCE 66%, #444444 40%, #444444 60%);
+  height: 7px;
+  border-radius: 5px 5px 0 0;
+}
+.remember{
+    text-align: left;
+    margin-left: 18%;
+    margin-bottom: 15px;
+}
+.remember input[type="checkbox"] {
+    vertical-align: sub;
+}
+.login-wrap .form input[type="submit"] {
+    width: 300px;
+    height: 50px;
+    border-radius: 5px ;
+    outline: 0;
+    -moz-outline-style: none;
+    background: #404040;
+    border: 1px solid #404040;
+    color: #fff;
+    transition: all ease-in-out 0.4s;
+    font: 400 18px/18px 'Open Sans', sans-serif;
+}
+.login-wrap .form input[type="submit"]:hover{
+    background: #DB3C35;
+    border: 1px solid #DB3C35;
+}
+.forget{
+    color: #34495e;
+}
+.forget a{
+   color: #0071B0; 
+   font: 400 12px/12px 'Open Sans', sans-serif;
+   text-decoration: underline;
+}
+.forget a:hover{
+   color: #DB3C35;  
+}
+/*###################
+#  Dashboard Styles #
+#####################*/
+.logo-sm img{
+    width: 100%;
+}
+.side-bar-user{
+    text-align: center;
+}
+.side-bar-user img{
+    margin: 0 auto;
+    width: 80px;
+}
+.side-bar-user h3{
+    color: #DB3C35;
+    font: 400 18px/12px 'Open Sans', sans-serif;
+    margin: 10px 0;
+    font-weight: bold;
+}
+.sidebar-toggle{
+    display: none;
+}
+.bottom-space{
+    margin-bottom: 10px;
+}
+.left-space{
+    margin-left: 24px;
+    margin-bottom: 10px !important;
+}
+.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a{
+    border-left-color: #DB3C35;
+}
+.add-pro{
+    background: #444444;
+    border: 1px solid #444444;
+    color: #fff;
+    transition: all ease-in-out 0.4s;
+    font: 400 18px/18px 'Open Sans', sans-serif;
+}
+.add-pro:hover{
+    color: #fff;
+    background: #DB3C35;
+    border: 1px solid #DB3C35;
+}
+.box.box-info{
+    border-top-color: #269CCE;
+}
+.box-header{
+    padding: 15px 10px;
+}
+.project-img{
+    width: 80px;
+}
+.center{
+    text-align: center;
+}
+.center img{
+    width: 20px;
+}
+.custtom-btn{
+    background: #444444;
+    border: 1px solid #444444;
+    color: #fff;
+    transition: all ease-in-out 0.4s;
+    font: 400 18px/18px 'Open Sans', sans-serif;
+    min-width: 150px;
+    padding: 10px 12px;
+}
+.custtom-btn:hover{
+    color: #fff;
+    background: #DB3C35;
+    border: 1px solid #DB3C35;
+}
+.skin-blue .main-header .navbar {
+    background-color: #269CCE;
+}
+.skin-blue .main-header .logo {
+    background-color: rgba(38, 156, 206, 0.82);
+}
+.link{
+    color: #269CCE;
+    text-decoration: underline;
+}
+
+
+
+
+/*Media Queries*/
+@media screen and (max-width:1400px){}
+@media screen and (max-width:1280px){}
+@media screen and (max-width:1199px){}
+@media screen and (max-width:1023px){}
+@media screen and (max-width:991px){}
+@media screen and (max-width:767px){
+    .sidebar-toggle{
+        display: block;
+    }
+}
+@media screen and (max-width:640px){}
+@media screen and (max-width:480px){}
+@media screen and (max-width:460px){}
+
+
+
+

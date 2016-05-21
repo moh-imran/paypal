@@ -1,0 +1,5 @@
+Please Impoert sql file from sql foder
+if you have clone it from git
+then first install pakages by using
+composer install comand
+then for safty use compsoer update comand on cammand line
